@@ -1,4 +1,5 @@
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
-s = 218
+a = int(input("Введите число:" ))
+b = a // 60
+c = a % 60
+print(b, 'мин', c, 'сек')
+
